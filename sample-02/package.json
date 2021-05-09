@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
+    "dev": "nodemon app.js",
     "upgrade-interactive": "npm-check --update"
   },
   "dependencies": {
+    "axios": "0.21.1",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.4",
     "debug": "^4.1.1",
@@ -16,6 +18,7 @@
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
-    "npm-check": "^5.9.2"
+    "npm-check": "^5.9.2",
+    "nodemon": "2.0.7"
   }
 }
